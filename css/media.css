@@ -1,0 +1,46 @@
+@media (max-width:970px){
+    .header-menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .mobile-menu span{
+        font-size: 32px;
+        color: rgb(116, 114, 114);
+    }
+    .block-line{
+        display: none;
+    }
+    .block-personal-date{
+        grid-template-columns: 100%;
+    }
+    header{
+        width: 90%;
+        margin: auto;
+    }
+    .lang{
+        display: none;
+    }
+    .work{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .block-me-images img{
+        width: 100%;
+    }
+    .about-me{
+        width: 90%;
+        margin: auto;
+    }
+    .block-with-skills{
+        grid-template-columns: 100%;
+    }
+    .skills{
+        width: 100%;
+    }
+    .portfolio{
+        width: 100%;
+    }
+}
